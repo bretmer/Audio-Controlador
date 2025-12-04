@@ -1,5 +1,8 @@
 import { useRef, useState} from 'react'
 import './Audio.css'
+import will from './assets/will.jpg'
+import camilo from './assets/camilo.png'
+import adexe from './assets/no-me-dejes.jpg'
 export default function Audio() {
     const audioRef = useRef(null);
 
@@ -7,21 +10,21 @@ export default function Audio() {
         {
             title: "Te Extraño Tanto",
             artist: "Antologia",
-            img: "./src/assets/will.jpg",
-            src: "./music/te-extraño.mp3",
+            img: will,
+            src: "/music/te-extraño.mp3",
         },
         {
             title: "Millones",
             artist: "Camilo",
-            img: "./src/assets/camilo.png",
-            src: "./music/millones.mp3",
+            img: camilo,
+            src: "/music/millones.mp3",
         },
         {
             title: "No Me Dejes Así",
             artist: "Adexe & Nau",
-            img: "./src/assets/no-me-dejes.jpg",
-            src: "./music/dejes-así.mp3",
-        },
+            img: adexe,
+            src: "/music/dejes-así.mp3",
+        }
     ];
 
     const [index, setIndex] = useState(0);
