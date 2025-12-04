@@ -1,5 +1,5 @@
 import React from 'react'
-import Audio from './componentes/Audio'
+import Audio from './Audio.jsx'
 import './App.css'
 function App() {
   return (
