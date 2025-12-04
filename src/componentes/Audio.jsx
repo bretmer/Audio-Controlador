@@ -13,7 +13,7 @@ export default function Audio() {
         {
             title: "Millones",
             artist: "Camilo",
-            img: "./src/assets/camilo.jpg",
+            img: "./src/assets/camilo.png",
             src: "./music/millones.mp3",
         },
         {
